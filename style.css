@@ -1,0 +1,99 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: all 0.5s ease-in;
+}
+
+body {
+	background-color: #ffff8d;
+}
+
+.ba-wrapper {
+	margin: 0 auto;
+	border: 20px solid #fff;
+	width: 740px;
+	height: 740px;
+	margin-top: 20px
+}
+
+.ba-checkers {
+	border: 1px solid #8C9192;
+	background-color: #ffffff;
+	position: relative;
+	width: 700px;
+	height: 700px;
+}
+
+.ba-row {
+	width: 100%;
+    height: 12.5%;
+    position: absolute;
+    background: #ECECEC;
+    left:0;
+}
+
+.ba-row1 {
+	top: 0;
+}
+.ba-row2 {
+	top: 12.5%;
+}
+.ba-row3 {
+	top: 25%;
+}
+.ba-row4 {
+	top: 37.5%;
+}
+.ba-row5 {
+	top: 50%;
+}
+.ba-row6 {
+	top: 62.5%;
+}
+.ba-row7 {
+	top: 75%;
+}
+.ba-row8 {
+	top: 87.5%;
+}
+
+.ba-cell {
+	position: absolute;
+	height: 100%;
+	width: 12.5%;
+}
+
+.ba-cell1 {
+   	left: 0;
+}
+.ba-cell2 {
+   	left: 12.5%;
+}
+.ba-cell3 {
+	left: 25%;
+}
+.ba-cell4 {
+	left: 37.5%;
+}
+.ba-cell5 {
+	left: 50%;
+}
+.ba-cell6 {
+	left: 62.5%;
+}
+.ba-cell7 {
+	left: 75%;
+}
+.ba-cell8 {
+	left: 87.5%;
+}
+
+.ba-row:nth-child(odd) .ba-cell:nth-child(odd) {
+	background: #999A99;
+}
+.ba-row:nth-child(even) .ba-cell:nth-child(even) {
+	background: #999A99;
+}
