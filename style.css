@@ -92,8 +92,8 @@ body {
 }
 
 .ba-row:nth-child(odd) .ba-cell:nth-child(odd) {
-	background: #999A99;
+	background: #999A98;
 }
 .ba-row:nth-child(even) .ba-cell:nth-child(even) {
-	background: #999A99;
+	background: #999A98;
 }
